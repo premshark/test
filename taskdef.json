@@ -7,7 +7,7 @@
         }
     ],
     "memory": 1024,
-    "cpu": 1,
+    "cpu": 2,
     "family": "test",
     "taskRoleArn": "arn:aws:iam::466749146115:role/ECS_ROLE"
 }
