@@ -6,8 +6,8 @@
             "essential": true
         }
     ],
-    "memory": "500",
-    "cpu": "10",
+    "memory": "2048",
+    "cpu": "1024",
     "family": "test",
     "taskRoleArn": "arn:aws:iam::466749146115:role/ECS_ROLE"
 }
