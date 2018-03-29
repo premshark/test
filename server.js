@@ -1,16 +1,9 @@
-'use strict';
+var http = require('http');
 
-const express = require('express');
+http.createServer(function(req, res){
 
-// Constants
-const PORT = 8080;
-const HOST = '0.0.0.0';
+res.writeHead(200, {'content-type':'text/plain'});
+res.end('Hello World!');
+}).listen(9001);
 
-// App
-const app = express();
-app.get('/', (req, res) => {
-  res.send('Hello world\n');
-});
-
-app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+console.log('Server is running on a port over 9001 !!');
