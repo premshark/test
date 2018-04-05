@@ -2,7 +2,7 @@
     "containerDefinitions": [
         {
             "name": "test",
-            "image": "0123456789.dkr.ecr.ap-south-1.amazonaws.com/test:0.0.1",
+            "image": "466749146115.dkr.ecr.ap-south-1.amazonaws.com/test:0.0.1",
             "essential": true,
             "cpu":1024,
             "memory":500
@@ -11,5 +11,5 @@
     
     "networkMode":"host",
     "family": "test",
-    "taskRoleArn": "arn:aws:iam::0123456789:role/ECS_ROLE"
+    "taskRoleArn": "arn:aws:iam::466749146115:role/ECS_ROLE"
 }
