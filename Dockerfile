@@ -8,4 +8,4 @@ RUN nodejs -v
 COPY . /
 
 CMD ["nodejs","server.js"]
-EXPOSE 8001
+EXPOSE 8002
